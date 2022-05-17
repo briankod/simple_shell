@@ -1,0 +1,24 @@
+.TH firstshell "May2022" "1.0" "simple_shell man 1 page"
+.SH name
+simple_shell
+.SH SYNOPSIS
+execution by ./hsh [options] [file]
+.B Interactive mode
+.I [command_name][option_name][argument...]
+
+.SH DESCRIPTION
+Simple shell programe takes input(commands) from terminal and excutes from standard input
+.SH Return Value
+Always Return 0(Success), otherwise failure
+.SH PATH
+.SH OPTIONS
+There are no options currently.
+.B
+.SH EXAMPLE
+[command] [options]
+$cisfun /bin
+$ls -la
+.SH BUGS
+There may be some bugs since the project is still ongoing.
+.SH AUTHORS
+Ray Nyamu, Purity Muthee
